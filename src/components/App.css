@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #A5D7E8;
+}
+
+/* app css */
+.app_container {
+    padding: 0px 10px;
+}
+
+/* header css */
+.header_container {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1.3px solid gray;
+}
+
+.contact_heading {
+    text-align: center;
+}
+
+
+/* AddContact Style */
+
+.addContact_container {
+    border-bottom: 1.3px solid gray;
+}
+
+.addContact_container>h2 {
+    margin-bottom: 10px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.field>label {
+    font-weight: 600;
+    margin: 7px 0px;
+}
+
+.field>input {
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    outline: none;
+    border: none;
+}
+
+
+.field>input:focus {
+    border: 1px solid red;
+}
+
+.btn {
+    margin: 10px 0px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgb(86, 86, 247);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 255);
+}
+
+/* contact Lists */
+.list_container>h2 {
+    margin: 10px 0px;
+}
+
+/* contactCard */
+.list_container>h2 {
+    color: red;
+}
+
+.item {
+    /* background-color: red; */
+    margin: 20px 0px;
+    border-top: 1px solid #b2b2b2;
+    border-bottom: 1px solid #b2b2b2;
+
+}
+
+.contact_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.person_detail {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.person {
+    font-size: 38px;
+    border: 2px solid rgb(193, 193, 193);
+    background: gray;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px 0px;
+}
+
+.content .header {
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.trash_icon {
+    color: rgb(253, 127, 127);
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.trash_icon:hover {
+    transform: scale(1.1);
+    color: rgb(255, 0, 0);
+    transition: all 0.4s ease;
+}
